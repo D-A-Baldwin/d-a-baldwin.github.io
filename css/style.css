@@ -1,5 +1,5 @@
 :root{
-  --max-w: 600px;
+  --max-w: 900px;
   --accent: #0066cc;
   --muted: #666;
   --gap: 18px;
@@ -26,7 +26,7 @@ body{
 .site-nav a{
   text-decoration:none;
   color:inherit;
-  padding:6px 8px;
+  padding:20px 20px;
   border-radius:6px;
   font-size:0.95rem;
 }
