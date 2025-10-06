@@ -15,7 +15,7 @@ body{
 .container{
   max-width:var(--max-w);
   margin:0 auto;
-  padding:24px;
+  padding:40px;
 }
 .site-header{
   border-bottom:1px solid #eee;
