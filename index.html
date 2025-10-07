@@ -26,7 +26,7 @@
   <p class="intro-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod ante sem, eu cursus justo aliquam a. Sed malesuada quam in mollis tincidunt. Phasellus ac varius risus, imperdiet pretium dui. In scelerisque, augue non laoreet sollicitudin, ipsum sem maximus purus, a consectetur orci quam at nunc. Aenean ornare lacinia blandit. Proin ut velit et velit euismod molestie sed vitae quam. Nullam sit amet libero quam. Etiam volutpat eget sem sed laoreet. Vivamus sit amet mollis arcu, dapibus condimentum nulla.</p>
 
 <script>
-    // mark the current page's nav link as active for styling and accessibility
+    <!-- mark the current page's nav link as active for styling and accessibility -->
     (function() {
       const navLinks = document.querySelectorAll('.site-nav a');
       const current = location.pathname.split('/').pop() || 'index.html';
@@ -36,7 +36,7 @@
           a.setAttribute('aria-current','page');
         }
       });
-      // set current year in footer
+      <!-- set current year in footer -->
       document.getElementById('year').textContent = new Date().getFullYear();
     })();
   </script>
