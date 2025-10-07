@@ -17,6 +17,16 @@ body{
   margin:0 auto;
   padding:20px;
 }
+.intro-para1{
+  max-width:var(--max-w);
+  margin:0 auto;
+  padding:20px;
+}
+.intro-para2{
+  max-width:var(--max-w);
+  margin:0 auto;
+  padding:20px;
+}
 .site-header{
   border-bottom:1px solid #eee;
   padding:12px 0;
