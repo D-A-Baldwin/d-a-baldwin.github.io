@@ -23,7 +23,7 @@
 </div>
   
 <script>
-    <!-- mark the current page's nav link as active for styling and accessibility -->
+    // mark the current page's nav link as active for styling and accessibility
     (function() {
       const navLinks = document.querySelectorAll('.site-nav a');
       const current = location.pathname.split('/').pop() || 'index.html';
@@ -33,7 +33,7 @@
           a.setAttribute('aria-current','page');
         }
       });
-      <!-- set current year in footer -->
+      // set current year in footer
       document.getElementById('year').textContent = new Date().getFullYear();
     })();
   </script>
