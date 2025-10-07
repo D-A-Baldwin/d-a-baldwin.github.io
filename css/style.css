@@ -17,12 +17,7 @@ body{
   margin:0 auto;
   padding:20px;
 }
-.intro-para1{
-  max-width:var(--max-w);
-  margin:0 auto;
-  padding:20px;
-}
-.intro-para2{
+.intro-para{
   max-width:var(--max-w);
   margin:0 auto;
   padding:20px;
