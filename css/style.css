@@ -22,6 +22,11 @@ body{
   margin:0 auto;
   padding:20px;
 }
+.contact-info-para{
+  max-width:var(--max-w);
+  margin:0 auto;
+  padding:20px;
+}
 .site-header{
   border-bottom:1px solid #eee;
   padding:12px 0;
