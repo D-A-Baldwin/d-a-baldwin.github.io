@@ -17,12 +17,12 @@ body{
   margin:0 auto;
   padding:20px;
 }
-.intro-para{
+.intro-paras{
   max-width:var(--max-w);
   margin:0 auto;
   padding:20px;
 }
-.contact-info-para{
+.contact-info-paras{
   max-width:var(--max-w);
   margin:0 auto;
   padding:20px;
