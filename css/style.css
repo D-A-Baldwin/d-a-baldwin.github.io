@@ -22,6 +22,11 @@ body{
   margin:0 auto;
   padding:20px;
 }
+.about-paras{
+  max-width:var(--max-w);
+  margin:0 auto;
+  padding:20px;
+}
 .contact-info-paras{
   max-width:var(--max-w);
   margin:0 auto;
