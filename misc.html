@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Daniel Baldwin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="startGame()">
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Daniel A. Baldwin</h1>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="links.html">Tools</a>
+        <a href="contact.html">Contact</a>
+        <!-- <a href="misc.html">Misc.</a> -->
+      </nav>
+    </div>
+  </header>
+
+<div id="game-area">
+    <script src="grahamscan_game.js"></script>
+</div>
+
+<script>
+    // mark the current page's nav link as active for styling and accessibility
+    (function() {
+      const navLinks = document.querySelectorAll('.site-nav a');
+      const current = location.pathname.split('/').pop() || 'index.html';
+      navLinks.forEach(a => {
+        if (a.getAttribute('href') === current) {
+          a.classList.add('active');
+          a.setAttribute('aria-current','page');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
