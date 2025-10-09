@@ -2,32 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!--The below ensures that the webpage width matches the width of the device it is
+  loaded on and 1 CSS pixel equals 1 device pixel-->
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Daniel Baldwin</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Daniel Baldwin</title><!-- the title which appears on the tab-->
+  <link rel="stylesheet" href="css/style.css"><!--This element is used to link to an external 
+  style .css file-->
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <h1 class="logo">Daniel A. Baldwin</h1>
-      <nav class="site-nav" aria-label="Main navigation">
+      <nav class="site-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="links.html">Tools</a>
         <a href="contact.html">Contact</a>
+        <!-- <a href="misc.html">Misc.</a> -->
       </nav>
     </div>
   </header>
 
 <div class="intro-paras">
-  <h2>Hello,</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod ante sem, eu cursus justo aliquam a. 
-    Sed malesuada quam in mollis tincidunt. Phasellus ac varius risus, imperdiet pretium dui. 
-    In scelerisque, augue non laoreet sollicitudin, ipsum sem maximus purus, a consectetur orci quam at nunc. Aenean ornare lacinia blandit. 
-    Proin ut velit et velit euismod molestie sed vitae quam. Nullam sit amet libero quam. Etiam volutpat eget sem sed laoreet. Vivamus sit amet mollis arcu, dapibus condimentum nulla.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod ante sem, eu cursus justo aliquam a. Sed malesuada quam in mollis tincidunt. Phasellus ac varius risus, imperdiet pretium dui. In scelerisque, augue non laoreet sollicitudin, ipsum sem maximus purus, a consectetur orci quam at nunc. Aenean ornare lacinia blandit. Proin ut velit et velit euismod molestie sed vitae quam. Nullam sit amet libero quam. Etiam volutpat eget sem sed laoreet. Vivamus sit amet mollis arcu, dapibus condimentum nulla.</p>
+  <h2>Hello</h2>
+  <p> The purpose of this website is to gather in one place my contact details and a bit about me, 
+    whilst also providing an excuse to learn some HTML and JavaScript.
+    <br />
+    <br />
+    I'll add some more interesting things here in time.
+    <br />
+    <br />
+    <br />
+    Below are some links to things like my GitHub and LinkedIn.
+  </p>
 </div>  
+
+<footer>
+  <div class="pic-nav">
+    <a href="https://github.com/D-A-Baldwin" target="_blank"><img src="images/github-mark.png" alt="GitHub Icon" width=auto height=60px></a>
+    <a href="https://www.linkedin.com/in/daniel-baldwin-3b61a616a" target="_blank"><img src="images/LI-In-Bug.png" alt="LinkedIn Icon" width=auto height=60px></a>
+    <a href="https://inspirehep.net/authors/2755334" target="_blank"><img src="images/INSPIRE_HEP_logo.png" alt="Inspire-hep icon" width=auto height=60px></a>
+  
+  </div>
+</footer>
+
 <script>
-    // mark the current page's nav link as active for styling and accessibility 
+    // mark the current page's nav link as active 
     (function() {
       const navLinks = document.querySelectorAll('.site-nav a');
       const current = location.pathname.split('/').pop() || 'index.html';
@@ -37,8 +58,6 @@
           a.setAttribute('aria-current','page');
         }
       });
-      // set current year in footer
-      document.getElementById('year').textContent = new Date().getFullYear();
     })();
   </script>
 </body>
