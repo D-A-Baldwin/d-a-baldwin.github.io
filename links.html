@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Daniel Baldwin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Daniel A. Baldwin</h1>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="links.html">Tools</a>
+        <a href="contact.html">Contact</a>
+        <!-- <a href="misc.html">Misc.</a> -->
+      </nav>
+    </div>
+  </header>
+
+<div class="links-paras">
+    <p> A collection of links and tools that I find useful </p>
+    <h2> Research </h2>
+    <ul>
+        <li> GAP, a discrete algebra programming language - <a href="https://www.gap-system.org/">gap-system.org</a></li>
+        <li>A collection of properties of all finite groups of order &le; 500 - <a href="https://people.maths.bris.ac.uk/~matyd/GroupNames/index.html">GroupNames</a></li>
+        <li>A database of thousands of lattices (up to dimension 40, with some higher <br /> dimensional examples) and their properties - <a href="https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/index.html#HD">Catalogue of Lattices</a></li>
+    </ul>
+    <h2> Recreational Maths </h2>
+    <ul>
+      <li>A database of integer sequences - <a href="https://oeis.org/">oeis.org</a></li>
+      <li>A collection of interesting maths problems that require some programming skills <br /> to solve - <a href="https://projecteuler.net/about">projecteuler.net</a></li>
+      
+      <a href="https://projecteuler.net" target="_blank"> 
+      <img src="https://projecteuler.net/profile/HairlessVictory123.png" alt="Project Euler progress for HairlessVictory123" width=auto height=60px></a>
+    </ul>
+    <h2> For making this website </h2>
+    <ul>
+        <li>"HTML & CSS - Design and build Websites" by Jon Duckett</li>
+        <li>"JavaScript: The Definitive Guide" by David Flanagan</li>
+        <li> A huge library of open source fonts - <a href="https://fonts.google.com/">fonts.google.com</a></li>
+        <li> A tool to choose colour palettes - <a href="https://coolors.co/">coolors.co</a></li>
+    </ul>
+</div>
+  
+<script>
+    // mark the current page's nav link as active for styling and accessibility
+    (function() {
+      const navLinks = document.querySelectorAll('.site-nav a');
+      const current = location.pathname.split('/').pop() || 'index.html';
+      navLinks.forEach(a => {
+        if (a.getAttribute('href') === current) {
+          a.classList.add('active');
+          a.setAttribute('aria-current','page');
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
