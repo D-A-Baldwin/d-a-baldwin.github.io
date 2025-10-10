@@ -214,7 +214,7 @@ ul {
 }
 
 /* THis changes the size of things on a phone */
-@media (max-width: 768px) {
+@media (max-width: 921px) {
     h2 { font-size: 1.3rem; }
     p { font-size: 1rem; }
         .research-paras p {
