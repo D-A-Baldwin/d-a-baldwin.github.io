@@ -259,6 +259,7 @@ ul {
 @media (max-width: 400px) {
   .menu-toggle {
     display: block;
+    float: right; 
   }
 
   .site-nav {
