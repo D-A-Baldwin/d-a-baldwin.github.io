@@ -16,11 +16,22 @@
 * { box-sizing: border-box; }
 
 html { font-size: 16px; } /* Base font size */
-body {
+/* body {
   font-family: 'Lexend Deca', sans-serif;
   margin: 0.625rem; 
   line-height: 1.6;
   background: var(--bg-col);
+} */
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0.625rem; 
+  line-height: 1.6;
+  background-image: url("wavy_background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
 }
 
 a {
