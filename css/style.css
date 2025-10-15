@@ -90,7 +90,11 @@ ul {
 
 /* Header */
 .site-header {
-  background-color: var(--header-bg-col);
+  background-image: url("wavy_header_background.svg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   border: 0.1875rem outset var(--accent-col);
   border-radius: 0.625rem; 
   padding: 0.3125rem 0;
